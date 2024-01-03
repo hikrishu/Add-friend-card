@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    display: flex;
+    background-color: rgb(90, 135, 175);
+   
+    justify-content: center;
+}
+#card {
+    height: 300px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+
+}
+img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+h3 {
+    margin: 10px;
+}
+h5 {
+    color: red;
+    margin: 20px auto 10px auto;
+}
+
+#button {
+    height: 30px;
+    width: 120px;
+    padding: 3px;
+    border: 2px solid red;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: aliceblue;
+}
